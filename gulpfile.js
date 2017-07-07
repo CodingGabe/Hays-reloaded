@@ -25,7 +25,7 @@ gulp.task('serve', ['workflow'], function() {
         server: "./"
     });
 
-    gulp.watch('./src/sass/**/*.scss', ['sass']);
+    gulp.watch('./src/sass/**/*.scss', ['workflow']);
     gulp.watch('/*.html').on('change', browserSync.reload);
 });
 

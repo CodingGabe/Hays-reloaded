@@ -1,0 +1,71 @@
+
+// Define typography
+html {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
+	font-size: $font-size;
+}
+
+// Body base
+body {
+	color: $font-color;
+	background: $background;
+	font-size: $body-font-size;
+}
+
+p,
+ol,
+ul,
+dl {
+	margin: 0 0 $margins 0;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0 0 $margins 0;
+	font-weight: $heading-weight;
+	font-family: $heading-font-family;
+	line-height: $heading-line-height;
+	color: $heading-font-color;
+	&:not(:first-child) {
+		margin: 1.5rem 0;
+	}
+}
+
+// Individual styling
+h1 {
+	font-size: $h1;
+}
+
+h2 {
+	font-size: $h2;
+}
+
+h3 {
+	font-size: $h3;
+}
+
+h4 {
+	font-size: $h4;
+}
+
+h5 {
+	font-size: $h5;
+}
+
+// Vertically center anything
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.text-center {
+  text-align: center;
+}

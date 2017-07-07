@@ -1,0 +1,15 @@
+/* ===== Mixins ===== */
+
+// Mobile first
+@mixin small-breakpoint {
+  @media (min-width: #{$mobile}) {
+    @content;
+  }
+}
+
+// Desktop breakpoint
+@mixin large-breakpoint {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
