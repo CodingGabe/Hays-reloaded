@@ -6,3 +6,8 @@ section {
   background: $background;
   border-bottom: 1px solid $section-border;
 }
+
+.section-inverse {
+  background: $primary;
+  color: $white;
+}

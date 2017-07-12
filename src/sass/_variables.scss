@@ -75,3 +75,10 @@ $button-border-style: solid;
 $button-border-color: $button-background;
 $button-border-radius: $border-radius;
 $button-text-transform: normal;
+
+// Secondary Buttons
+$secondary-button-background: transparent;
+$secondary-hover: $primary;
+$secondary-color: $primary;
+$secondary-border-color: $primary;
+$secondary-button-color-hover: $primary;
