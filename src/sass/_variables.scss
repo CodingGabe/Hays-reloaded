@@ -39,6 +39,7 @@ $heading-font-color: $font-color; //used so it is easy to customize headers
 $heading-weight: 500;
 $heading-font-family: $font-family; //will replace with google fonts or whatever font
 $heading-line-height: 1.2;
+$heading-space: 20px;
 
 $h1: 2.5rem;
 $h2: 2rem;
@@ -82,3 +83,6 @@ $secondary-hover: $primary;
 $secondary-color: $primary;
 $secondary-border-color: $primary;
 $secondary-button-color-hover: $primary;
+
+// Round Buttons
+$round-buttons: 40px;

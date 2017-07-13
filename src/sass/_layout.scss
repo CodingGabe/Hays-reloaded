@@ -9,5 +9,23 @@ section {
 
 .section-inverse {
   background: $primary;
-  color: $white;
+  h1,h2,h3 {
+    color: $white;
+  }
+}
+
+.card {
+  max-width: 350px;
+  color: $primary;
+}
+
+#places {
+  h4 {
+    font-weight: 300;
+    color: $white;
+    padding-bottom: $heading-space;
+  }
+  h3 {
+    color: $primary;
+  }
 }

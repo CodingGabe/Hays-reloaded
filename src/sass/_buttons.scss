@@ -2,7 +2,7 @@
   =============== */
 
 // Main button styling
-%buttons {
+.button {
 	display: inline-block;
 	line-height: 1;
 	border: $button-border-width $button-border-style $button-border-color;
@@ -23,7 +23,7 @@
 }
 
 // Buttons on hover
-%buttons-hover {
+.button:hover {
 	border: $button-border-width $button-border-style darken($button-border-color, 10%);
 	background: $button-hover;
 	color: $button-color;
@@ -31,28 +31,28 @@
 }
 
 // Buttons on focus
-%buttons-focus {
+.button:focus {
 	border: $button-border-width $button-border-style darken($button-border-color, 10%);
 	background: darken($button-background, 10%);
 	color: $button-color;
 	text-decoration: none;
 }
 
-// Apply styles to .button class, button element, and button-based inputs
-#{$buttons} {
-	@extend %buttons;
-	&::-moz-focus-inner {
-		border: 0;
-		padding: 0;
-	}
-	&:hover {
-		@extend %buttons-hover;
-	}
-	&:focus,
-	&:active {
-		@extend %buttons-focus;
-	}
-}
+// // Apply styles to .button class, button element, and button-based inputs
+// #{$buttons} {
+// 	@extend %buttons;
+// 	&::-moz-focus-inner {
+// 		border: 0;
+// 		padding: 0;
+// 	}
+// 	&:hover {
+// 		@extend %buttons-hover;
+// 	}
+// 	&:focus,
+// 	&:active {
+// 		@extend %buttons-focus;
+// 	}
+// }
 
 // Secondary button color
 .secondary-button,

@@ -10,70 +10,65 @@
     <link rel="stylesheet" href="../dist/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="../Hays-reloaded/img/favicon.ico">
 </head>
 
 <body>
 
-    <!-- Simple standard icon clicker -->
-    <div class="button_container" id="toggle">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-    </div>
-
-    <!-- Navbar after click -->
-    <div class="overlay" id="overlay">
-        <nav class="overlay-menu">
-            <ul>
-                <li><a href="#">Hays512</a></li>
-                <li><a href="#">Places</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Info</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="cd-stretchy-nav">
+        <a class="cd-nav-trigger" href="#"><span aria-hidden="true"></span></a>
+        <ul>
+            <li><a href="#hero" class="active"><span>Hays512</span></a></li>
+            <li><a href="#places"><span>Places</span></a></li>
+            <li><a href="#events"><span>Events</span></a></li>
+            <li><a href="#info"><span>Info</span></a></li>
+        </ul>
+        <span aria-hidden="true" class="stretchy-nav-bg"></span>
+    </nav>
 
     <section id="hero">
-        <div class="container">
-            <h1 class="text-center hero-header">Welcome to Hays 512!</h1>
+        <div class="container text-center">
+            <h1 class="hero-header">Welcome to Hays 512!</h1>
+            <h3><em>Creative. News. Design.</em></h3>
         </div>
     </section>
 
     <section id="places" class="section-inverse">
         <div class="container">
-            <h2>Check out some of these hot spots to visit in the beautiful Hays County</h2>
-            <div class="flex-row">
-                <div class="flex-large">
+            <h2 class="text-center">Featured Spots</h2>
+            <h4>Check out some of these hot spots to visit in the beautiful Hays County</h4>
+             <div class="flex-row">
+                <div class="column-33">
                     <div class="card">
-                        <img class="card-img-top" src="http://via.placeholder.com/250x150" alt="Card image cap">
+                        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Centerfield">
                         <div class="card-block">
-                            <h4 class="card-title">Centerfield</h4>
-                            <p class="card-text">Voted best burgers in Kyle, 2 years in a row.</p>
+                            <h3 class="card-title">Centerfield</h3>
+                            <p class="card-text">Best Burger in Kyle</p>
                             <a href="#" class="button">Check it out!</a>
                         </div>
                     </div>
                 </div>
-                <div class="flex-large">
+                <div class="column-33">
                     <div class="card">
-                        <img class="card-img-top" src="http://via.placeholder.com/250x150" alt="Card image cap">
+                        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Centerfield">
                         <div class="card-block">
-                            <h4 class="card-title">Centerfield</h4>
-                            <p class="card-text">Voted best burgers in Kyle, 2 years in a row.</p>
+                            <h3 class="card-title">AquaBrew</h3>
+                            <p class="card-text">One of the best new breweries in SM</p>
                             <a href="#" class="button">Check it out!</a>
                         </div>
                     </div>
                 </div>
-                <div class="flex-large">
+                <div class="column-33">
                     <div class="card">
-                        <img class="card-img-top" src="http://via.placeholder.com/250x150" alt="Card image cap">
+                        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Centerfield">
                         <div class="card-block">
-                            <h4 class="card-title">Centerfield</h4>
-                            <p class="card-text">Voted best burgers in Kyle, 2 years in a row.</p>
+                            <h3 class="card-title">Taco Alde</h3>
+                            <p class="card-text">Best breakfast in Buda</p>
                             <a href="#" class="button">Check it out!</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
 
@@ -90,6 +85,7 @@
             $('#overlay').toggleClass('open');
         });
     </script>
+    <script src="src/hays.js"></script>
 </body>
 
 </html>
