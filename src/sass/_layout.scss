@@ -17,6 +17,9 @@ section {
 .card {
   max-width: 350px;
   color: $primary;
+  img {
+    width: 350px;
+  }
 }
 
 #places {

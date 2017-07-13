@@ -1,6 +1,4 @@
 /* Containers */
-// I felt it best practice to have the breakpoints at an even number and to put them
-// in a variable for easy access
 $x-small: 600px;
 $small: 800px;
 $medium: 1000px;
@@ -14,7 +12,7 @@ $secondary: #92DCE5;
 $alt: #EEE5E9;
 $background: #ecf0f1;
 $link-color: $primary;
-$link-hover: lighten($link-color, 10%); //<-- Neat SASS trick
+$link-hover: lighten($link-color, 10%); 
 $highlight: #ffeea8;
 $bq-border: 5px solid #cdcdcd;
 $white: #fff; //Common color
@@ -35,9 +33,9 @@ $font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.5;
 
 // Headings
-$heading-font-color: $font-color; //used so it is easy to customize headers
+$heading-font-color: $font-color;
 $heading-weight: 500;
-$heading-font-family: $font-family; //will replace with google fonts or whatever font
+$heading-font-family: $font-family; 
 $heading-line-height: 1.2;
 $heading-space: 20px;
 
@@ -53,6 +51,7 @@ $padding: 2rem;
 $margins: 1.5rem;
 $content-padding: 80px 0;
 $content-padding-mobile: 60px 0;
+$spacing: 2.5rem 0;
 
 /* Borders */
 
@@ -69,7 +68,7 @@ $button-background: $primary;
 $button-hover: darken($button-background, 25%);
 $button-color: $white;
 $button-font-weight: 500;
-$button-font-family: Helvetica Neue, Helvetica, Arial, sans-serif; //used standard font for buttons
+$button-font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
 $button-font-size: 1rem;
 $button-border-width: 1px;
 $button-border-style: solid;

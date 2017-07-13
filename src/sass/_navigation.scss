@@ -120,6 +120,7 @@
   -moz-transition: visibility 0.3s;
   transition: visibility 0.3s;
   text-align: right;
+  list-style-type: none;
 }
 .cd-stretchy-nav ul a {
   position: relative;
@@ -132,6 +133,7 @@
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
+  list-style-type: none;
 }
 .cd-stretchy-nav ul a::after {
   /* navigation item icons */
@@ -210,7 +212,7 @@
 }
 .cd-stretchy-nav.nav-is-visible ul a.active {
   color: $primary;
-  list-style: none;
+  list-style-type: none;
 }
 .cd-stretchy-nav.nav-is-visible ul a.active::after {
   opacity: 1;
