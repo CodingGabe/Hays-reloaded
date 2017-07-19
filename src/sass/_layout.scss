@@ -14,12 +14,27 @@ section {
   }
 }
 
-.card {
-  max-width: 420px;
-  color: $primary;
-  img {
-    width: 350px;
+.hays-card {
+  background-color: $alt;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1px 8px 2px (rgba(0, 0, 0, 0.5))
   }
+}
+
+.hays-block {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 #places {
