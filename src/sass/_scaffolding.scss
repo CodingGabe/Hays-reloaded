@@ -117,3 +117,10 @@ h5 {
 .spacing {
 	margin: $spacing;
 }
+
+.seperator {
+	width: 25%;
+	border: 1px solid $primary;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
