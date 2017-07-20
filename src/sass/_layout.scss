@@ -26,6 +26,23 @@ section {
     transform: scale(1.05);
     box-shadow: 0 1px 8px 2px (rgba(0, 0, 0, 0.5))
   }
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-title {
+    font-size: 0.9em;
+  }
+  .card-text {
+    font-size: 0.7em;
+  }
+  .hays-card {
+    .button {
+      font-size: 0.7em;
+    }
+  }
 }
 
 .hays-block {
@@ -125,3 +142,4 @@ section {
   margin: 0;
   padding: 0;
 }
+
