@@ -71,6 +71,7 @@ section {
     font-size: 1.375em;
     text-transform: uppercase;
     letter-spacing: 0;
+    color: $white;
   }
   p {
     font-size: 0.688em;
@@ -105,6 +106,9 @@ section {
   .hero-header {
     color: $alt;
     text-shadow: 1px 1px 5px (rgba(0, 0, 0, 0.5));
+  }
+  h3 {
+    color: $white;
   }
 }
 
