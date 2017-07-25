@@ -143,8 +143,17 @@ section {
   letter-spacing: 0;
 }
 
-#mappy {
-  margin: 0;
-  padding: 0;
+#calendar-center {
+  margin: 0 auto;
 }
 
+#events {
+  text-align: center;
+  h2 {
+    padding-bottom: $spacing;
+  }
+  h4 {
+    font-weight: 300;
+    padding-bottom: $spacing;
+  }
+}
