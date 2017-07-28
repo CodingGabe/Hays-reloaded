@@ -5,10 +5,12 @@ section {
   padding: 60px 0px;
   background: $background;
   border-bottom: 1px solid $section-border;
+  color: $primary;
 }
 
 .section-inverse {
   background: $primary;
+  color: $white;
   h1,h2,h3 {
     color: $white;
   }
@@ -16,6 +18,7 @@ section {
 
 .hays-card {
   background-color: $alt;
+  color: $primary;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -155,5 +158,41 @@ section {
   h4 {
     font-weight: 300;
     padding-bottom: $spacing;
+  }
+}
+
+.googleCalendar {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  iframe {
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.our-work {
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 12px 2px (rgba(0, 0, 0, 0.5));
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+  .work-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2 {
+    padding-bottom: 60px;
   }
 }
