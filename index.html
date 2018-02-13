@@ -14,226 +14,52 @@
     <link rel="stylesheet" href="dist/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+
 
 </head>
 
 <body>
 
-    <nav class="cd-stretchy-nav">
-        <a class="cd-nav-trigger" href="#"><span aria-hidden="true"></span></a>
-        <ul>
-            <li><a href="#hero" class="active"><span>Hays512</span></a></li>
-            <li><a href="#places"><span>Places</span></a></li>
-            <li><a href="#events"><span>Events</span></a></li>
-            <li><a href="#about"><span>Info</span></a></li>
-        </ul>
-        <span aria-hidden="true" class="stretchy-nav-bg"></span>
+    <nav>
+        <div class="navbar-menu-transparent navbar-static">
+            <input type="checkbox" id="navbar-checkbox">
+            <div class="navbar-menu navbar-menu-transparent">
+                <ul class="navbar-navigation">
+                    <li class="navbar-header">
+                        <a class="navbar-brand" href="#top"><img src="../img/hays512-logo.png" alt="Hays512 Logo"></a>
+                        <label class="navbar-hamburger navbar-hamburger-spin" for="navbar-checkbox"> <span></span> </label>
+                    </li>
+                    <li class="navbar-item active"><a href="https://twitter.com/Hays512"><i data-feather="twitter"></i> <span>Twitter</span></a></li>
+                    <li class="navbar-item"><a href="https://www.facebook.com/Hays512/"><i data-feather="facebook"></i> <span>Facebook</span></a></li>
+                    <li class="navbar-item"><a href="https://www.instagram.com/hays512_/"><i data-feather="instagram"></i> <span>Instagram</span></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <section id="hero">
         <div class="container text-center">
             <h1 class="hero-header">Welcome to Hays 512!</h1>
-            <h3><em>Hand crafted <span id="digital">Digital Experiences</span></em></h3>
+            <h3><em>Find the best Eats around the beautiful<span id="digital"> Hill Country</span></em></h3>
+            <img src="../img/comingsoon.png" alt="Hays Coming Soon">
         </div>
     </section>
-
-    <div class="hays-message">
-        <div class="container text-center">
-            <h2 id="wild">Bring us your creative visions</h2>
-            <p>We'll make it a reality</p>
-        </div>
-    </div>
 
     <section id="about" class="section">
         <div class="container text-center">
             <div class="row">
                 <div class="about-title">
-                    <strong class="subheader">The home of Hays. Local. Creative.</strong>
+                    <strong class="subheader">The Home of Hays. Local. Creative.</strong>
                     <hr class="seperator">
                     <p class="description">Created to help the community find out more information about our beautiful area and to help small companies create a brand identity. Need to find our hidden gems? Explore our beaufitul county and enjoy tranquility.</p>
-                    <strong id="work-with-us">Work with Us?</strong>
-                    <p class="description">We offer thoughtful, and cohesive digital experiences that spring from a collaborative, transparent approach focues on brand authenticity.</p>
+                    <strong id="work-with-us">Work with Me?</strong>
+                    <p class="description">I offer thoughtful, and cohesive digital experiences that spring from a collaborative, transparent approach focusing on brand authenticity.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="places" class="section-inverse">
-        <div class="container">
-            <h2 class="text-center subheader">Explore Hays</h2>
-            <h4 class="text-center">Pick a town and explore the top rated eats and places.</h4>
-             <div class="flex-row">
-                 <div class="flex-small"> 
-                    <div class="hays-card">
-                         <img src="img/smtx.jpg" alt="San Marcos"> 
-                        <div class="hays-block">
-                            <h3 class="card-title">San Marcos</h3>
-                            <p class="card-text">Home of the Texas State Bobcats</p>
-                            <a href="http://centerfieldkyle.com/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-small">
-                    <div class="hays-card">
-                        <img src="img/ktx.jpg" alt="Kyle">
-                        <div class="hays-block">
-                            <h3 class="card-title">Kyle</h3>
-                            <p class="card-text">#KeepitKyle known for the best Pie!</p>
-                            <a href="https://aqua-brew.com/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-small">
-                    <div class="hays-card">
-                        <img src="img/btx.jpeg" alt="Buda">
-                        <div class="hays-block">
-                            <h3 class="card-title">Buda</h3>
-                            <p class="card-text">Livin' easy</p>
-                            <a href="http://www.casaalde.com/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Next flex-row -->
-            <div class="flex-row spacing">
-                <div class="flex-small">
-                    <div class="hays-card">
-                        <img src="img/wimbtx.jpg" alt="Wimberley">
-                        <div class="hays-block">
-                            <h3 class="card-title">Wimberley</h3>
-                            <p class="card-text">A nice place to visit .. . A great place to live</p>
-                            <a href="http://www.visitwimberley.com/jacobswell/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-small">
-                    <div class="hays-card">
-                        <img src="img/dripping.jpg" alt="Dripping Springs">
-                        <div class="hays-block">
-                            <h3 class="card-title">Dripping Springs</h3>
-                            <p class="card-text">Start your float around SM here</p>
-                            <a href="http://donsfishcamp.com/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-small">
-                    <div class="hays-card">
-                        <img src="img/haysco.jpg" alt="Hays County">
-                        <div class="hays-block">
-                            <h3 class="card-title">Hays</h3>
-                            <p class="card-text">Bear Creek, Mountain City, Woodcreek</p>
-                            <a href="http://donsfishcamp.com/" class="button">Check it out!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-
-    <section id="events" class="section">
-        <div class="container">
-            <h2 class="subheader text-center">Events</h2>
-            <h4>Check out the community calendar for events around the area.<h4>
-            <div class="row">
-                <div class="googleCalendar">
-                    <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=gabethagoon%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section-inverse our-work">
-        <div class="container">
-            <h2 class="subheader text-center">Our work</h2>
-            <div class="row">
-                <div class="small-50">
-                    <a href="http://www.512goons.pro/"><img src="img/goons.png" alt="512 Goons site"></a>
-                </div>
-                <div class="small-50 work-text">
-                    <h3>The 512 Goons</h3>
-                    <p>The 512 Goons site is a where you can go and keep up with local streamers and news of upcoming games. Minimalistic style blog.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section our-work">
-        <div class="container">
-            <div class="row">
-                <div class="small-50">
-                    <a href="https://codinggabe.github.io/bigrobs/"><img src="img/robs.png" alt="Big Rob's Concept"></a>
-                </div>
-                <div class="small-50 work-text">
-                    <h3>Big Rob's Burgers (Concept)</h3>
-                    <p>One of favorite burgers located in Kyle, Texas. A must try if you are craving a mouth watering burger. A page where user's can go to view the menu, hours and contact info as opposed to their FB page.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-inverse our-work">
-        <div class="container">
-            <div class="row">
-                <div class="small-50">
-                    <a href="https://codinggabe.github.io/ItsPicTime/"><img src="img/ncosta.png" alt="Norma's Photo Booth"></a>
-                </div>
-                <div class="small-50 work-text">
-                    <h3>Norma Acosta's Photobooth</h3>
-                    <p>Norma Acosta runs a traveling photobooth company and offers high quality prints and custom props for events. A little more dynamic user experience.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section our-work">
-        <div class="container">
-            <div class="row">
-                <div class="small-50">
-                    <a href="http://www.gabeamaya.com/"><img src="img/gabe.png" alt="My portfolio"></a>
-                </div>
-                <div class="small-50 work-text">
-                    <h3>Gabe Amaya Web Dev</h3>
-                    <p>My awesome blog and journey how I got here. Everything is built from scratch and hand made. I take pride crafting the perfect, responsive site for each business.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="large-33">
-                    <div class="footer-list">
-                        <h5>Contact</h5>
-                        <ul>
-                            <li><a href="" class="list-group-item"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Gabemaya2@gmail.com</a></li>
-                            <li><a href="" class="list-group-item"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; @Hays512</a></li>
-                            <li><a href="" class="list-group-item"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp; Hays512</a></li>
-                            <li><a href="" class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; :Hays512</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="large-33">
-                    <div class="footer-list">
-                        <h5>Hays 512</h5>
-                        <ul>
-                            <li><a href="#home" class="list-group-item">Home</a></li>
-                            <li><a href="#portfolio" class="list-group-item">Projects</a></li>
-                            <li><a href="#about" class="list-group-item">About</a></li>
-                            <li style="padding:10px 0;">&copy; <script> document.write(new Date().getFullYear()) </script> Made with <i class="fa fa-heart heart"></i> by Gabe Amaya</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="large-33">
-                    <div class="footer-list">
-                        <h5>Recent Posts</h5>
-                        <ul>
-                            <li><a href="#" class="list-group-item">Blog Coming Soon</a></li>
-                            <li><a href="#" class="list-group-item">Coming Soon</a></li>
-                            <li><a href="#" class="list-group-item">Soon</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <div id="built-in-ktx">
         <a href="www.gabeamaya.com" class="btn-ktx">Built in Kyle, Texas</a>
@@ -254,6 +80,8 @@
     </script>
     <script src="src/hays.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>feather.replace()</script>
 </body>
+
 
 </html>
